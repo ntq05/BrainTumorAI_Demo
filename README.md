@@ -46,6 +46,18 @@ This project implements a complete computer vision pipeline for brain tumor clas
 - MC Dropout implemented for uncertainty estimation.  
 - Segmentation outputs thresholded at 0.5.  
 
+### 6. Results
+ResNet18 Evaluation
+| Class        | Precision | Recall | F1-score | Support |
+|--------------|-----------|--------|----------|---------|
+| glioma       | 0.99      | 0.98   | 0.99     | 254     |
+| meningioma   | 0.98      | 0.98   | 0.98     | 306     |
+| no_tumor     | 0.99      | 1.00   | 0.99     | 140     |
+| pituitary    | 0.99      | 0.99   | 0.99     | 300     |
+| **accuracy** |           |        | **0.99** | 1000    |
+| **macro avg**| 0.99      | 0.99   | 0.99     | 1000    |
+| **weighted avg** | 0.99  | 0.99   | 0.99     | 1000    |
+
 ### 6. Deployment
 - Save best models: `best_resnet18.pth`, `best_resunet.pth`.  
 - Streamlit app allows users to upload images and get predicted class and tumor mask.  
