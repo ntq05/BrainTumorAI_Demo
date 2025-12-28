@@ -48,6 +48,7 @@ This project implements a complete computer vision pipeline for brain tumor clas
 
 ### 6. Results
 ResNet18 Evaluation
+
 | Class        | Precision | Recall | F1-score | Support |
 |--------------|-----------|--------|----------|---------|
 | glioma       | 0.99      | 0.98   | 0.99     | 254     |
@@ -64,9 +65,13 @@ ResNet18 Evaluation
 
 ## Demo Images
 
-![Classification and Segmentation](BrainTumorPic1.png)
+<img src="BrainTumorPic1.png" width="80%">
 
-![LLM Report](BrainTumorPic2.png)
+*Classification and Segmentation Results*
+
+<img src="BrainTumorPic2.png" width="80%">
+
+*LLM-generated Medical Report*
 
 ## 📦 Environment Setup Guide
 
