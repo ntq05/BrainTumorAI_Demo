@@ -49,28 +49,17 @@ This project implements a complete computer vision pipeline for brain tumor clas
 ### 6. Results
 ResNet18 Evaluation
 
-<h3>ResNet18 Evaluation</h3>
+```text
+              precision    recall  f1-score   support
+glioma           0.99       0.98      0.99       254
+meningioma       0.98       0.98      0.98       306
+no_tumor         0.99       1.00      0.99       140
+pituitary        0.99       0.99      0.99       300
 
-<table>
-  <thead>
-    <tr>
-      <th>Class</th>
-      <th>Precision</th>
-      <th>Recall</th>
-      <th>F1-score</th>
-      <th>Support</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>glioma</td><td>0.99</td><td>0.98</td><td>0.99</td><td>254</td></tr>
-    <tr><td>meningioma</td><td>0.98</td><td>0.98</td><td>0.98</td><td>306</td></tr>
-    <tr><td>no_tumor</td><td>0.99</td><td>1.00</td><td>0.99</td><td>140</td></tr>
-    <tr><td>pituitary</td><td>0.99</td><td>0.99</td><td>0.99</td><td>300</td></tr>
-    <tr><td><b>accuracy</b></td><td></td><td></td><td><b>0.99</b></td><td><b>1000</b></td></tr>
-    <tr><td>macro avg</td><td>0.99</td><td>0.99</td><td>0.99</td><td>1000</td></tr>
-    <tr><td>weighted avg</td><td>0.99</td><td>0.99</td><td>0.99</td><td>1000</td></tr>
-  </tbody>
-</table>
+accuracy                               0.99      1000
+macro avg        0.99       0.99      0.99      1000
+weighted avg     0.99       0.99      0.99      1000
+```
 
 ### 6. Deployment
 - Save best models: `best_resnet18.pth`, `best_resunet.pth`.  
