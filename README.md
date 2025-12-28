@@ -60,7 +60,13 @@ ResNet18 Evaluation
 
 ### 6. Deployment
 - Save best models: `best_resnet18.pth`, `best_resunet.pth`.  
-- Streamlit app allows users to upload images and get predicted class and tumor mask.  
+- Streamlit app allows users to upload images and get predicted class and tumor mask.
+
+## Demo Images
+
+![Classification and Segmentation](BrainTumorPic1.png)
+
+![LLM Report](BrainTumorPic2.png)
 
 ## 📦 Environment Setup Guide
 
